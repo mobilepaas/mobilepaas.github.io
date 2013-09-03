@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="996" measuredH="751" mockupW="857" mockupH="722">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="996" measuredH="729" mockupW="857" mockupH="700">
   <controls>
     <control controlID="1" controlTypeID="com.balsamiq.mockups::iPhone" x="139" y="29" w="150" h="317" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -10,26 +10,26 @@
         <model>IPhone5</model>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Arrow" x="609" y="193" w="228" h="10" measuredW="150" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Arrow" x="609" y="253" w="228" h="10" measuredW="150" measuredH="100" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Apple%20Push</text>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="514" y="170" w="-1" h="-1" measuredW="74" measuredH="57" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="514" y="230" w="-1" h="-1" measuredW="74" measuredH="57" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Desktop/Screen%2520Shot%25202013-08-20%2520at%25208.05.36%2520PM.png</src>
+        <src>./push.png</src>
         <text/>
       </controlProperties>
     </control>
     <control controlID="11" controlTypeID="com.balsamiq.mockups::Map" x="868" y="208" w="106" h="79" measuredW="252" measuredH="222" zOrder="4" locked="false" isInGroup="-1"/>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::Arrow" x="304" y="193" w="204" h="10" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Arrow" x="304" y="253" w="204" h="10" measuredW="150" measuredH="100" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <text>GCM</text>
       </controlProperties>
     </control>
     <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="178" y="392" w="218" h="71" measuredW="427" measuredH="136" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Desktop/Screen%2520Shot%25202013-08-20%2520at%25208.10.54%2520PM.png</src>
+        <src>./jenkins.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -38,7 +38,7 @@
         <text>json</text>
       </controlProperties>
     </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::IconLabel" x="488" y="372" w="126" h="-1" measuredW="98" measuredH="63" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::IconLabel" x="488" y="374" w="126" h="-1" measuredW="98" measuredH="63" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <text>hosted%20push%20app</text>
       </controlProperties>
@@ -53,14 +53,14 @@
         <text>json</text>
       </controlProperties>
     </control>
-    <control controlID="31" controlTypeID="com.balsamiq.mockups::Arrow" x="546" y="227" w="10" h="132" measuredW="150" measuredH="100" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Arrow" x="546" y="287" w="10" h="72" measuredW="150" measuredH="100" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <text>SNS</text>
       </controlProperties>
     </control>
     <control controlID="32" controlTypeID="com.balsamiq.mockups::Image" x="680" y="478" w="-1" h="-1" measuredW="68" measuredH="59" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Desktop/Screen%2520Shot%25202013-08-20%2520at%25208.05.28%2520PM.png</src>
+        <src>./sync.png</src>
         <text/>
       </controlProperties>
     </control>
@@ -69,7 +69,7 @@
         <text>http</text>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Arrow" x="748" y="530" w="59" h="79" measuredW="150" measuredH="100" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Arrow" x="755" y="495" w="59" h="79" measuredW="150" measuredH="100" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
@@ -89,24 +89,24 @@
         <text>Build%20iOS%20apps%0ABuild%20Android%20apps%0ABuild%2C%20test%20and%20deploy%20server%20apps</text>
       </controlProperties>
     </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="713" y="624" w="239" h="127" measuredW="839" measuredH="445" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Image" x="873" y="126" w="97" h="57" measuredW="300" measuredH="175" zOrder="18" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Desktop/Screen%2520Shot%25202013-08-20%2520at%25208.34.52%2520PM.png</src>
+        <src>./ios-logo.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::Image" x="873" y="126" w="97" h="57" measuredW="300" measuredH="175" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Image" x="172" y="101" w="85" h="89" measuredW="256" measuredH="256" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Desktop/ios-logo.png</src>
+        <src>./android-logo.jpg</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::Image" x="172" y="101" w="85" h="89" measuredW="256" measuredH="256" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Map" x="161" y="203" w="106" h="79" measuredW="252" measuredH="222" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="722" y="579" w="206" h="150" measuredW="901" measuredH="650" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Desktop/android-logo.jpg</src>
+        <src>./weave.png</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="42" controlTypeID="com.balsamiq.mockups::Map" x="161" y="203" w="106" h="79" measuredW="252" measuredH="222" zOrder="21" locked="false" isInGroup="-1"/>
   </controls>
 </mockup>
