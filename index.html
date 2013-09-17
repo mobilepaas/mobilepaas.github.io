@@ -30,16 +30,20 @@
         <h3>
 <a name="cloudbees-mobile-services" class="anchor" href="#cloudbees-mobile-services"><span class="octicon octicon-link"></span></a>CloudBees mobile services</h3>
 
-<p>This project showcases <a href="https://developer.cloudbees.com/bin/view/Mobile">CloudBees mobile services</a>. We have assembled  several template projects that you can refer to (and clone/build from) that show the full range of CloudBees mobile services, from building mobile apps, deploying server apps, integrating data, push messages - all hosted, by us.</p>
+<p>This project showcases <a href="https://developer.cloudbees.com/bin/view/Mobile">CloudBees mobile services</a>. We have assembled several template projects that you can refer to (and clone/build from) that show the full range of CloudBees mobile services, from building mobile apps, deploying server apps, integrating data, push messages - all hosted, by CloudBees.</p>
 
-<h2>
-<a name="the-demo-app" class="anchor" href="#the-demo-app"><span class="octicon octicon-link"></span></a>The demo app</h2>
+<h2><a name="the-demo-app" class="anchor" href="#the-demo-app"><span class="octicon octicon-link"></span></a>The demo app</h2>
 
-<p>You really wanted to build your own restaurant review mobile app right? No? Oh, well lucky this is just a demo, it is called "Gasp" which is a pun on "Yelp".</p>
+<p>The best way to learn about mobile app development and how to use CI in the mobile space is by using a real, working example. We created an example that you're probably familiar with - a restaurant review app. We call it Gasp, a bit of a variation on Yelp. Users create restaurant reviews, and users read reviews others have made near their location. While the app is simple in concept, the code addresses standard problems that a lot of mobile apps have to deal with. For example:</p>
+<ul>
+	<li>Who's using your app? You need to keep this information in a database on the backend, of course. The kind of data you store on a per-user basis will be quite application-specific, and you probably need to track user information in other systems outside of the app-specific database.</li>
+	<li>How do you let your users know when something interesting happens that is relevant to them and their location? You need to make use of a "notification service" and a "location service", along with some application logic on the backend. You need to have a way to broadcast the notification, but only to specific users based on their location or information that you have on the backend.</li>
+	<li>How do you use compact "something happened" style notifications, but synchronize the specific data onto the device needed by your app?</li>
+	<li>How do you test properly when you have both Android and iOS front-ends connected to back-end logic? How should you factor your code to make things more testable and to enable multi-stream development by different teams proceeding at different paces?</li>
+	<li>How do you easily integrate and synchronize data between the multiple databases and hosted services you use within your mobile application and tie them to your other business systems, like Salesforce?</li>
+</ul>
 
-<p>This app is made up of iOS and Android apps, as well as integration, databases, server apps, and more. Restaurants are reviewed and geotagged, updates to restaurant views are pushed out to phones once a change in the data is detected.</p>
-
-<p>The best way to explore and see the code, docs, is to click around the map, that shows the moving parts:</p>
+<p>Solving these problems involves a lot of moving parts and code. Gasp gets you hands-on with mobile CI using Jenkins, databases, server-side apps, iOS and Android native services, AWS native services, and WEAVE@cloud integration. To help you navigate, we created this map to show you how the pieces fit together. Click on the area you're interested in, and it will drop you in the right GitHub repository.</p>
 
 <p><img src="https://raw.github.com/mobilepaas/mobilepaas.github.io/master/mobilepaas.github.io.png" usemap="#map"></p>
 
